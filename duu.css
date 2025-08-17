@@ -171,3 +171,24 @@ html, body {
 .hidden {
   display: none;
 }
+.footer {
+  position: fixed;       
+  bottom: 10px;         
+  left: 50%;             
+  transform: translateX(-50%); 
+  font-size: 8px;
+  color: white;
+  text-align: center;
+}
+@media (max-width: 600px) {
+  h1 {
+    font-size: 12px;
+  }
+  .user-music-box {
+    top: auto;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+  }
+}
