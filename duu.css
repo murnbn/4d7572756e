@@ -223,7 +223,7 @@ footer {
   }
   .footer {
     position:fixed;
-    bottom: 0px;
+    bottom: 5px;
     font-size: 8px;
   }
 }
